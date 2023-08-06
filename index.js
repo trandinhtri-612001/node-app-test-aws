@@ -10,7 +10,7 @@ app.get('/app',(req,res) => {
     res.status(200).json({success:1,code:200,messages:'ok',data:"hello viet nam"});
     
 })
-const PORT = process.env.PORT || 5000;
+const PORT = 4000;
 
 app.listen(PORT,() => {
     console.log("server is running");
