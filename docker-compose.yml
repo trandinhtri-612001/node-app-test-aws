@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+ my-app-node-2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: my-app-node
+    ports:
+      - '4001:4000'
+
